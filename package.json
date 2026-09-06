@@ -1,0 +1,16 @@
+{
+  "name": "show-doctor",
+  "version": "0.1.0",
+  "description": "Pre-show validation for Ableton Live sets, with typed adapters and a runnable mock demo.",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "test": "tsc && node --test dist/test/showDoctor.test.js",
+    "doctor": "tsc && node dist/src/doctor.js",
+    "demo": "tsc && node dist/src/demo.js"
+  },
+  "devDependencies": {
+    "@types/node": "^26.3.0",
+    "typescript": "^5.6.0"
+  }
+}
