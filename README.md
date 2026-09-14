@@ -70,7 +70,7 @@ Start with these files:
 
 ## Verification and limits
 
-The 13 tests cover missing tracks/clips, incorrect and unknown routing, unexpected clips, tempo mismatch, structure planning, orchestration, and snapshot normalization. They run without a live Ableton instance. Compilation and these tests were exercised for this public edition; a live integration run was not performed as part of preparing it.
+The test suite covers missing tracks/clips, incorrect and unknown routing, unexpected clips, tempo mismatch, structure planning, orchestration, and snapshot normalization. It runs without a live Ableton instance. Compilation and the tests were exercised for this public edition; a live integration run was not performed as part of preparing it.
 
 `SHOW READY` currently means **no errors found by the configured checks**. Warnings can remain, including unverified routing. It does not mean every performance requirement has been verified. Review all warnings and the manual checklist.
 
