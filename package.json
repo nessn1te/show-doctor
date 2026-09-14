@@ -2,6 +2,8 @@
   "name": "show-doctor",
   "version": "0.1.0",
   "description": "Pre-show validation for Ableton Live sets, with typed adapters and a runnable mock demo.",
+  "license": "MIT",
+  "author": "Ness Nite",
   "type": "module",
   "scripts": {
     "build": "tsc",
